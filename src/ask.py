@@ -4,7 +4,7 @@ from config import *
 from retrieve import buscar
 
 import sys
-
+# 
 # Garante saída UTF-8 no Windows para evitar caracteres corrompidos
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
